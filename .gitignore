@@ -27,4 +27,6 @@
 /vendor/
 **/vendor/
 
+notifier
+
 .DS_Store
