@@ -1,0 +1,27 @@
+hash: 9264f5827b19cd6fec77b9e85383abdd27875f664803e97a2f12bd6d4b0b9284
+updated: 2017-11-25T08:23:54.467896095-05:00
+imports:
+- name: github.com/carnellj/gws-ttk-notifier
+  version: f3e106c61af3e1ca22ea56cac5101a57ebd7bb14
+  subpackages:
+  - api
+  - api/twilio
+  - controllers
+  - di
+  - models
+  - service
+  - service/notifierservice
+  - utils
+- name: github.com/codegangsta/negroni
+  version: 5dbbc83f748fc3ad38585842b0aedab546d0ea1e
+- name: github.com/facebookgo/inject
+  version: cc1aa653e50f6a9893bcaef89e673e5b24e1e97b
+- name: github.com/facebookgo/structtag
+  version: 217e25fb96916cc60332e399c9aa63f5c422ceed
+- name: github.com/gorilla/context
+  version: 08b5f424b9271eedf6f9f0ce86cb9396ed337a42
+- name: github.com/gorilla/mux
+  version: 7f08801859139f86dfafd1c296e2cba9a80d292e
+- name: github.com/unrolled/render
+  version: 65450fb6b2d3595beca39f969c411db8f8d5c806
+testImports: []

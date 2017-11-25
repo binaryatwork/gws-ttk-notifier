@@ -23,4 +23,8 @@
 /config/
 **/config/
 
+/vendor
+/vendor/
+**/vendor/
+
 .DS_Store
