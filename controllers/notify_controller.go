@@ -2,8 +2,8 @@ package controllers
 
 import (
 	"encoding/json"
-	"github.com/carnellj/notifier/di"
-	"github.com/carnellj/notifier/models"
+	"github.com/carnellj/gws-ttk-notifier/di"
+	"github.com/carnellj/gws-ttk-notifier/models"
 	"github.com/unrolled/render"
 	"log"
 	"net/http"

@@ -3,7 +3,7 @@ package twilio
 import (
 	"errors"
 	"fmt"
-	"github.com/carnellj/notifier/utils"
+	"github.com/carnellj/gws-ttk-notifier/utils"
 	"io/ioutil"
 	"log"
 	"net/http"

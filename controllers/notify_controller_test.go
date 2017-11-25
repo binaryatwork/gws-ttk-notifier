@@ -3,8 +3,8 @@ package controllers
 import (
 	"bytes"
 	"fmt"
-	"github.com/carnellj/notifier/di"
-	"github.com/carnellj/notifier/service/notifierservice"
+	"github.com/carnellj/gws-ttk-notifier/di"
+	"github.com/carnellj/gws-ttk-notifier/service/notifierservice"
 	"github.com/facebookgo/inject"
 	"github.com/unrolled/render"
 	"log"
@@ -14,7 +14,7 @@ import (
 	"testing"
 
 	"errors"
-	"github.com/carnellj/notifier/api"
+	"github.com/carnellj/gws-ttk-notifier/api"
 )
 
 type MockGoodTwilioTextNotify struct{}

@@ -1,7 +1,7 @@
 package notifierservice
 
 import (
-	"github.com/carnellj/notifier/api"
+	"github.com/carnellj/gws-ttk-notifier/api"
 	"log"
 )
 

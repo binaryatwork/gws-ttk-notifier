@@ -1,12 +1,12 @@
 package service
 
 import (
-	"github.com/carnellj/notifier/controllers"
+	"github.com/carnellj/gws-ttk-notifier/controllers"
 	"fmt"
-	"github.com/carnellj/notifier/api/twilio"
-	"github.com/carnellj/notifier/di"
-	"github.com/carnellj/notifier/service/notifierservice"
-	"github.com/carnellj/notifier/utils"
+	"github.com/carnellj/gws-ttk-notifier/api/twilio"
+	"github.com/carnellj/gws-ttk-notifier/di"
+	"github.com/carnellj/gws-ttk-notifier/service/notifierservice"
+	"github.com/carnellj/gws-ttk-notifier/utils"
 	"github.com/codegangsta/negroni"
 	"github.com/facebookgo/inject"
 	"github.com/gorilla/mux"

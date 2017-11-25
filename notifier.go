@@ -3,7 +3,7 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/carnellj/notifier/service"
+	"github.com/carnellj/gws-ttk-notifier/service"
 )
 
 var (

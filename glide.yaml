@@ -1,0 +1,18 @@
+package: .
+import:
+- package: github.com/carnellj/gws-ttk-notifier
+  subpackages:
+  - api
+  - api/twilio
+  - controllers
+  - di
+  - models
+  - service
+  - service/notifierservice
+  - utils
+- package: github.com/codegangsta/negroni
+  version: v0.3.0
+- package: github.com/facebookgo/inject
+- package: github.com/gorilla/mux
+  version: v1.6.0
+- package: github.com/unrolled/render

@@ -1,8 +1,8 @@
 package di
 
 import (
-	"github.com/carnellj/notifier/service/notifierservice"
-	"github.com/carnellj/notifier/utils"
+	"github.com/carnellj/gws-ttk-notifier/service/notifierservice"
+	"github.com/carnellj/gws-ttk-notifier/utils"
 )
 
 type ServerServices struct {
